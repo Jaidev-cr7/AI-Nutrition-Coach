@@ -1,0 +1,785 @@
+AI_API_KEY not configured - using mock responses
+AI_API_KEY not configured - using mock responses
+Watching for file changes with StatReloader
+AI_API_KEY not configured - using mock responses
+Not Found: /
+"GET / HTTP/1.1" 404 2305
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2356
+Not Found: /
+"GET / HTTP/1.1" 404 2305
+Unauthorized: /api/stats/
+"GET /api/stats/ HTTP/1.1" 401 58
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+AI_API_KEY not configured - using mock responses
+Watching for file changes with StatReloader
+AI_API_KEY not configured - using mock responses
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+Watching for file changes with StatReloader
+AI_API_KEY not configured - using mock responses
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+C:\Users\Jaidev Narayan Singh\OneDrive\Desktop\Ai-Nutrition Coach\backend\api\urls.py changed, reloading.
+C:\Users\Jaidev Narayan Singh\OneDrive\Desktop\Ai-Nutrition Coach\backend\api\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+AI_API_KEY not configured - using mock responses
+AI_API_KEY not configured - using mock responses
+C:\Users\Jaidev Narayan Singh\OneDrive\Desktop\Ai-Nutrition Coach\backend\api\urls.py changed, reloading.
+Watching for file changes with StatReloader
+AI_API_KEY not configured - using mock responses
+AI_API_KEY not configured - using mock responses
+Watching for file changes with StatReloader
+AI_API_KEY not configured - using mock responses
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+C:\Users\Jaidev Narayan Singh\OneDrive\Desktop\Ai-Nutrition Coach\backend\backend\settings.py changed, reloading.
+Watching for file changes with StatReloader
+AI_API_KEY not configured - using mock responses
+Watching for file changes with StatReloader
+AI_API_KEY not configured - using mock responses
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+Internal Server Error: /api/auth/register/
+Traceback (most recent call last):
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django_redis\cache.py", line 99, in _get
+    return self.client.get(key, default=default, version=version, client=client)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django_redis\client\default.py", line 300, in get
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 365, in check_throttles
+    if not throttle.allow_request(request, self):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\throttling.py", line 123, in allow_request
+    self.history = self.cache.get(self.key, [])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django_redis\cache.py", line 92, in get
+    value = self._get(key, default, version, client)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__  # noqa: B904
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django_redis\client\default.py", line 298, in get
+    value = client.get(key)
+            ^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\commands\core.py", line 1834, in get
+    return self.execute_command("GET", name, keys=[name])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\client.py", line 657, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\client.py", line 663, in _execute_command
+    conn = self.connection or pool.get_connection()
+                              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\utils.py", line 196, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\connection.py", line 2601, in get_connection
+    connection.connect()
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\connection.py", line 846, in connect
+    self.connect_check_health(check_health=True)
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\connection.py", line 863, in connect_check_health
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+"POST /api/auth/register/ HTTP/1.1" 500 172174
+Internal Server Error: /api/auth/register/
+Traceback (most recent call last):
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django_redis\cache.py", line 99, in _get
+    return self.client.get(key, default=default, version=version, client=client)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django_redis\client\default.py", line 300, in get
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 365, in check_throttles
+    if not throttle.allow_request(request, self):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\throttling.py", line 123, in allow_request
+    self.history = self.cache.get(self.key, [])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django_redis\cache.py", line 92, in get
+    value = self._get(key, default, version, client)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__  # noqa: B904
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django_redis\client\default.py", line 298, in get
+    value = client.get(key)
+            ^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\commands\core.py", line 1834, in get
+    return self.execute_command("GET", name, keys=[name])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\client.py", line 657, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\client.py", line 663, in _execute_command
+    conn = self.connection or pool.get_connection()
+                              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\utils.py", line 196, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\connection.py", line 2601, in get_connection
+    connection.connect()
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\connection.py", line 846, in connect
+    self.connect_check_health(check_health=True)
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\connection.py", line 863, in connect_check_health
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+"POST /api/auth/register/ HTTP/1.1" 500 172174
+Internal Server Error: /api/auth/register/
+Traceback (most recent call last):
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django_redis\cache.py", line 99, in _get
+    return self.client.get(key, default=default, version=version, client=client)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django_redis\client\default.py", line 300, in get
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 365, in check_throttles
+    if not throttle.allow_request(request, self):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\throttling.py", line 123, in allow_request
+    self.history = self.cache.get(self.key, [])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django_redis\cache.py", line 92, in get
+    value = self._get(key, default, version, client)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__  # noqa: B904
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django_redis\client\default.py", line 298, in get
+    value = client.get(key)
+            ^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\commands\core.py", line 1834, in get
+    return self.execute_command("GET", name, keys=[name])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\client.py", line 657, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\client.py", line 663, in _execute_command
+    conn = self.connection or pool.get_connection()
+                              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\utils.py", line 196, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\connection.py", line 2601, in get_connection
+    connection.connect()
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\connection.py", line 846, in connect
+    self.connect_check_health(check_health=True)
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\connection.py", line 863, in connect_check_health
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+"POST /api/auth/register/ HTTP/1.1" 500 172174
+Internal Server Error: /api/auth/register/
+Traceback (most recent call last):
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django_redis\cache.py", line 99, in _get
+    return self.client.get(key, default=default, version=version, client=client)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django_redis\client\default.py", line 300, in get
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 365, in check_throttles
+    if not throttle.allow_request(request, self):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\throttling.py", line 123, in allow_request
+    self.history = self.cache.get(self.key, [])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django_redis\cache.py", line 92, in get
+    value = self._get(key, default, version, client)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__  # noqa: B904
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django_redis\client\default.py", line 298, in get
+    value = client.get(key)
+            ^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\commands\core.py", line 1834, in get
+    return self.execute_command("GET", name, keys=[name])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\client.py", line 657, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\client.py", line 663, in _execute_command
+    conn = self.connection or pool.get_connection()
+                              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\utils.py", line 196, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\connection.py", line 2601, in get_connection
+    connection.connect()
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\connection.py", line 846, in connect
+    self.connect_check_health(check_health=True)
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\connection.py", line 863, in connect_check_health
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+"POST /api/auth/register/ HTTP/1.1" 500 172174
+Internal Server Error: /api/auth/register/
+Traceback (most recent call last):
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django_redis\cache.py", line 29, in _decorator
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django_redis\cache.py", line 99, in _get
+    return self.client.get(key, default=default, version=version, client=client)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django_redis\client\default.py", line 300, in get
+    raise ConnectionInterrupted(connection=client) from e
+django_redis.exceptions.ConnectionInterrupted: Redis ConnectionError: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\views.py", line 365, in check_throttles
+    if not throttle.allow_request(request, self):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\rest_framework\throttling.py", line 123, in allow_request
+    self.history = self.cache.get(self.key, [])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django_redis\cache.py", line 92, in get
+    value = self._get(key, default, version, client)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django_redis\cache.py", line 36, in _decorator
+    raise e.__cause__  # noqa: B904
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django_redis\client\default.py", line 298, in get
+    value = client.get(key)
+            ^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\commands\core.py", line 1834, in get
+    return self.execute_command("GET", name, keys=[name])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\client.py", line 657, in execute_command
+    return self._execute_command(*args, **options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\client.py", line 663, in _execute_command
+    conn = self.connection or pool.get_connection()
+                              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\utils.py", line 196, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\connection.py", line 2601, in get_connection
+    connection.connect()
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\connection.py", line 846, in connect
+    self.connect_check_health(check_health=True)
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\redis\connection.py", line 863, in connect_check_health
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+"POST /api/auth/register/ HTTP/1.1" 500 172174
+C:\Users\Jaidev Narayan Singh\OneDrive\Desktop\Ai-Nutrition Coach\backend\backend\settings.py changed, reloading.
+C:\Users\Jaidev Narayan Singh\OneDrive\Desktop\Ai-Nutrition Coach\backend\backend\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+AI_API_KEY not configured - using mock responses
+AI_API_KEY not configured - using mock responses
+C:\Users\Jaidev Narayan Singh\OneDrive\Desktop\Ai-Nutrition Coach\backend\backend\settings.py changed, reloading.
+C:\Users\Jaidev Narayan Singh\OneDrive\Desktop\Ai-Nutrition Coach\backend\backend\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+AI_API_KEY not configured - using mock responses
+AI_API_KEY not configured - using mock responses
+Watching for file changes with StatReloader
+AI_API_KEY not configured - using mock responses
+Bad Request: /api/auth/register/
+"POST /api/auth/register/ HTTP/1.1" 400 151
+"POST /api/auth/register/ HTTP/1.1" 201 611
+"OPTIONS /api/stats/ HTTP/1.1" 200 0
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+C:\Users\Jaidev Narayan Singh\OneDrive\Desktop\Ai-Nutrition Coach\backend\api\views.py changed, reloading.
+C:\Users\Jaidev Narayan Singh\OneDrive\Desktop\Ai-Nutrition Coach\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+AI_API_KEY not configured - using mock responses
+AI_API_KEY not configured - using mock responses
+C:\Users\Jaidev Narayan Singh\OneDrive\Desktop\Ai-Nutrition Coach\backend\api\serializers.py changed, reloading.
+C:\Users\Jaidev Narayan Singh\OneDrive\Desktop\Ai-Nutrition Coach\backend\api\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+AI_API_KEY not configured - using mock responses
+AI_API_KEY not configured - using mock responses
+C:\Users\Jaidev Narayan Singh\OneDrive\Desktop\Ai-Nutrition Coach\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\Jaidev Narayan Singh\OneDrive\Desktop\Ai-Nutrition Coach\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+AI_API_KEY not configured - using mock responses
+AI_API_KEY not configured - using mock responses
+Watching for file changes with StatReloader
+AI_API_KEY not configured - using mock responses
+C:\Users\Jaidev Narayan Singh\OneDrive\Desktop\Ai-Nutrition Coach\backend\api\views.py changed, reloading.
+C:\Users\Jaidev Narayan Singh\OneDrive\Desktop\Ai-Nutrition Coach\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+AI_API_KEY not configured - using mock responses
+AI_API_KEY not configured - using mock responses
+Watching for file changes with StatReloader
+AI_API_KEY not configured - using mock responses
+C:\Users\Jaidev Narayan Singh\OneDrive\Desktop\Ai-Nutrition Coach\backend\api\urls.py changed, reloading.
+C:\Users\Jaidev Narayan Singh\OneDrive\Desktop\Ai-Nutrition Coach\backend\api\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+AI_API_KEY not configured - using mock responses
+AI_API_KEY not configured - using mock responses
+Watching for file changes with StatReloader
+AI_API_KEY not configured - using mock responses
+"POST /api/auth/register/ HTTP/1.1" 201 933
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"POST /api/auth/register/ HTTP/1.1" 201 928
+"GET /api/stats/ HTTP/1.1" 200 232
+"OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+"POST /api/auth/login/ HTTP/1.1" 200 928
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"POST /api/auth/login/ HTTP/1.1" 200 928
+"POST /api/auth/login/ HTTP/1.1" 200 928
+"POST /api/auth/login/ HTTP/1.1" 200 928
+"POST /api/auth/login/ HTTP/1.1" 200 928
+"POST /api/auth/login/ HTTP/1.1" 200 928
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"OPTIONS /api/meals/add/ HTTP/1.1" 200 0
+Not Found: /api/meals/add/
+"POST /api/meals/add/ HTTP/1.1" 404 6238
+"OPTIONS /api/ai/advice/ HTTP/1.1" 200 0
+"POST /api/ai/advice/ HTTP/1.1" 200 153
+Not Found: /api/meals/add/
+"POST /api/meals/add/ HTTP/1.1" 404 6238
+Not Found: /api/meals/add/
+"POST /api/meals/add/ HTTP/1.1" 404 6238
+Not Found: /api/meals/add/
+"POST /api/meals/add/ HTTP/1.1" 404 6238
+"GET /api/stats/ HTTP/1.1" 200 232
+"POST /api/ai/advice/ HTTP/1.1" 200 164
+"POST /api/ai/advice/ HTTP/1.1" 200 164
+Cache hit (Django cache) for: Pizza...
+"POST /api/ai/advice/ HTTP/1.1" 200 164
+"POST /api/ai/advice/ HTTP/1.1" 200 164
+Cache hit (Django cache) for: Burger...
+"POST /api/ai/advice/ HTTP/1.1" 200 164
+Not Found: /api/meals/add/
+"POST /api/meals/add/ HTTP/1.1" 404 6238
+Not Found: /api/meals/add/
+"POST /api/meals/add/ HTTP/1.1" 404 6238
+"POST /api/ai/advice/ HTTP/1.1" 200 153
+Not Found: /api/meals/add/
+"POST /api/meals/add/ HTTP/1.1" 404 6238
+Not Found: /api/meals/add/
+"POST /api/meals/add/ HTTP/1.1" 404 6238
+Not Found: /api/meals/add/
+"POST /api/meals/add/ HTTP/1.1" 404 6238
+Not Found: /api/meals/add/
+"POST /api/meals/add/ HTTP/1.1" 404 6238
+Not Found: /api/meals/add/
+"POST /api/meals/add/ HTTP/1.1" 404 6238
+Not Found: /api/meals/add/
+"POST /api/meals/add/ HTTP/1.1" 404 6238
+Not Found: /api/meals/add/
+"POST /api/meals/add/ HTTP/1.1" 404 6238
+"OPTIONS /api/meals/ HTTP/1.1" 200 0
+"POST /api/meals/ HTTP/1.1" 201 262
+"POST /api/meals/ HTTP/1.1" 201 253
+"GET /api/stats/ HTTP/1.1" 200 239
+"GET /api/stats/ HTTP/1.1" 200 239
+"GET /api/stats/ HTTP/1.1" 200 239
+Bad Request: /api/auth/register/
+"POST /api/auth/register/ HTTP/1.1" 400 58
+Bad Request: /api/auth/register/
+"POST /api/auth/register/ HTTP/1.1" 400 58
+Bad Request: /api/auth/register/
+"POST /api/auth/register/ HTTP/1.1" 400 58
+Bad Request: /api/auth/register/
+"POST /api/auth/register/ HTTP/1.1" 400 58
+Bad Request: /api/auth/register/
+"POST /api/auth/register/ HTTP/1.1" 400 58
+Bad Request: /api/auth/register/
+"POST /api/auth/register/ HTTP/1.1" 400 58
+Bad Request: /api/auth/register/
+"POST /api/auth/register/ HTTP/1.1" 400 58
+Unauthorized: /api/auth/register/
+"POST /api/auth/register/ HTTP/1.1" 401 172
+"OPTIONS /api/auth/refresh/ HTTP/1.1" 200 0
+"POST /api/auth/refresh/ HTTP/1.1" 200 244
+Bad Request: /api/auth/register/
+"POST /api/auth/register/ HTTP/1.1" 400 58
+Bad Request: /api/auth/register/
+"POST /api/auth/register/ HTTP/1.1" 400 58
+Bad Request: /api/auth/register/
+"POST /api/auth/register/ HTTP/1.1" 400 58
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"POST /api/auth/register/ HTTP/1.1" 201 942
+Bad Request: /api/auth/register/
+"POST /api/auth/register/ HTTP/1.1" 400 58
+"POST /api/auth/register/ HTTP/1.1" 201 915
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"POST /api/auth/register/ HTTP/1.1" 201 932
+"OPTIONS /api/stats/ HTTP/1.1" 200 0
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"POST /api/auth/login/ HTTP/1.1" 200 915
+"POST /api/auth/register/ HTTP/1.1" 201 939
+"POST /api/meals/ HTTP/1.1" 201 252
+"GET /api/stats/ HTTP/1.1" 200 232
+Watching for file changes with StatReloader
+AI service initialized successfully
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"POST /api/auth/register/ HTTP/1.1" 201 910
+"OPTIONS /api/stats/ HTTP/1.1" 200 0
+"GET /api/stats/ HTTP/1.1" 200 232
+Watching for file changes with StatReloader
+AI service initialized successfully
+C:\Users\Jaidev Narayan Singh\OneDrive\Desktop\Ai-Nutrition Coach\backend\backend\settings.py changed, reloading.
+Watching for file changes with StatReloader
+AI service initialized successfully
+"OPTIONS /api/auth/register/ HTTP/1.1" 200 0
+"POST /api/auth/register/ HTTP/1.1" 201 912
+"OPTIONS /api/stats/ HTTP/1.1" 200 0
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+"GET /api/stats/ HTTP/1.1" 200 232
+Invalid HTTP_HOST header: 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev'. You may need to add 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev'. You may need to add 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 80634
+Invalid HTTP_HOST header: 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev'. You may need to add 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev'. You may need to add 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 80771
+Invalid HTTP_HOST header: 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev'. You may need to add 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev'. You may need to add 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 80771
+Invalid HTTP_HOST header: 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev'. You may need to add 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev'. You may need to add 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 80634
+Invalid HTTP_HOST header: 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev'. You may need to add 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev'. You may need to add 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 80634
+Invalid HTTP_HOST header: 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev'. You may need to add 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev'. You may need to add 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 80666
+C:\Users\Jaidev Narayan Singh\OneDrive\Desktop\Ai-Nutrition Coach\backend\backend\settings.py changed, reloading.
+Watching for file changes with StatReloader
+AI service initialized successfully
+Invalid HTTP_HOST header: 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev'. You may need to add 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev'. You may need to add 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 80634
+Invalid HTTP_HOST header: 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev'. You may need to add 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev'. You may need to add 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 22317
+Invalid HTTP_HOST header: 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev'. You may need to add 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev' to ALLOWED_HOSTS.
+Traceback (most recent call last):
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jaidev Narayan Singh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\django\http\request.py", line 191, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev'. You may need to add 'nonmetaphysical-untrustworthily-dorthea.ngrok-free.dev' to ALLOWED_HOSTS.
+Bad Request: /
+"GET / HTTP/1.1" 400 80723
+Watching for file changes with StatReloader
+AI service initialized successfully
+Watching for file changes with StatReloader
+AI service initialized successfully
